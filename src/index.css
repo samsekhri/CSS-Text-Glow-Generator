@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@layer utilities {
+  .animate-gradient-x {
+    background-size: 400% 400%;
+    animation: gradientShift 10s ease infinite;
+  }
+}
