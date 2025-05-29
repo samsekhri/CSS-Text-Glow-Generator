@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2">
             <p className="text-sm text-gray-400">
-              Made by  <HeartIcon className="inline-block h-4 w-4 text-pink-500" /> Samanvay
+              Made with <HeartIcon className="inline-block h-4 w-4 text-pink-500" /> By Samanvay
             </p>
           </div>
           <div className="flex gap-4">
